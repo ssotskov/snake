@@ -2,13 +2,6 @@
 #include <iostream>
 #include <conio.h>
 #include <time.h>
-#include <windows.h>
-#include <cstdio>
-#include <fstream>
-#include <string>
-#include <ctime>
-#include <queue>
-
 
 const int MAXLENGTH = 1000;			//Maximum length of snake
 

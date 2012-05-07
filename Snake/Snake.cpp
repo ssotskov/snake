@@ -61,6 +61,7 @@ int delay( int millisec, int direction )
 
 	while( ( clock ( ) - timesec ) < millisec )
 	{
+
 	}
 
 	return direction;
@@ -88,7 +89,6 @@ int main( int argc, char* argv[] )
 	system("cls");
 	std::cout << "Good bye!\n";
 	delay(500, 1);
-	print();
 	return 0;
 }
 

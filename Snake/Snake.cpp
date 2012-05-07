@@ -2,6 +2,13 @@
 #include <iostream>
 #include <conio.h>
 #include <time.h>
+#include <windows.h>
+#include <cstdio>
+#include <fstream>
+#include <string>
+#include <ctime>
+#include <queue>
+
 
 const int MAXLENGTH = 1000;			//Maximum length of snake
 
@@ -67,7 +74,7 @@ int delay( int millisec, int direction )
 }
 
 
-int _tmain( int argc, _TCHAR* argv[] )
+int main( int argc, char* argv[] )
 {
 	/*
 	start();
@@ -88,6 +95,7 @@ int _tmain( int argc, _TCHAR* argv[] )
 	system("cls");
 	std::cout << "Good bye!\n";
 	delay(500, 1);
+	print();
 	return 0;
 }
 
